@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yandex test task</title>
+        <style>
+            .error {
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="myForm" action="test_responses/success.json">
+            <label>ФИО <input name="fio"></label>
+            <label>Email <input name="email"></label>
+            <label>Телефон <input name="phone"></label>
+            <button id="submitButton" type="submit">Submit</button>
+        </form>
+        <div id="resultContainer"></div>
+        <script src="lib/jquery-3.2.1.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
